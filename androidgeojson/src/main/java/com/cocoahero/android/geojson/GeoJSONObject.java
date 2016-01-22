@@ -6,10 +6,12 @@ import android.os.Parcelable;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.Serializable;
+
 /**
  * The abstract interface of all GeoJSON objects.
  */
-public abstract class GeoJSONObject implements Parcelable {
+public abstract class GeoJSONObject implements Parcelable, Serializable {
 
     // ------------------------------------------------------------------------
     // Public Constants
